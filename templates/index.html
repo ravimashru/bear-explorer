@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block body %}
+<div class="d-flex flex-row">
+  <div>{% include "sidebar.html" %}</div>
+  <div class="flex-grow-1">{% include "note.html" %}</div>
+  <div>{% include "backlinks.html" %}</div>
+</div>
+{% endblock %}
